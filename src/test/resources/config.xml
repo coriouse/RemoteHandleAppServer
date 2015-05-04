@@ -1,0 +1,26 @@
+<root>
+	<port>2628</port>
+	<commands>
+		<command order="4" key="ERROR">
+			<launch>setss</launch>
+		</command>
+		<command order="1" key="DIR">		
+			<launch>dir c:</launch>
+		</command>
+		<command order="2" key="SET">
+			<launch>set</launch>
+		</command>
+		<command order="3" key="PING">
+			<launch>ping localhost</launch>
+		</command>
+		
+		<command order="10" key="PROCESS_IS_WORKING">
+			<launch>tasklist | findstr "java"</launch>
+		</command>
+		
+		<command order="10" key="PROCESS_IS_NOT_WORKING">
+			<launch>tasklist | findstr "java1"</launch>
+		</command>
+		
+	</commands>
+</root>
