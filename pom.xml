@@ -26,7 +26,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>serverTrigger</finalName>
+		<finalName>shellExecutorAgent</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
